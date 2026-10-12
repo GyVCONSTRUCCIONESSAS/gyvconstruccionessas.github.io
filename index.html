@@ -63,7 +63,7 @@ footer{background:var(--ink);color:#B3AC9E} footer .slogan-pie{font-family:'Play
 @media (max-width:1200px){.hero-brand{width:420px}}
 @media (max-width:980px){.menu{background:#fff;border-bottom-color:var(--line)} .menu a{border-bottom-color:var(--line)} .hero-brand{width:300px;align-self:center} .slogan{font-size:26px}}
 @media (max-width:600px){.slogan{font-size:22px}.slogan::before,.slogan::after{width:22px}}
-</style>
+ .galeria{background:#fff} .gal-grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:16px} .gal-item{margin:0;display:flex;flex-direction:column;gap:10px} .gal-item button{all:unset;cursor:zoom-in;display:block;border-radius:10px;overflow:hidden;aspect-ratio:4/3;background:var(--sand)} .gal-item img{width:100%;height:100%;object-fit:cover;transition:transform .35s} .gal-item button:hover img{transform:scale(1.05)} .gal-item button:focus-visible{outline:3px solid var(--orange);outline-offset:2px} .gal-item figcaption{font-size:14px;font-weight:600;color:var(--muted);padding-left:12px;border-left:3px solid var(--orange)} .lightbox{position:fixed;inset:0;z-index:100;background:rgba(17,17,16,.92);display:flex;align-items:center;justify-content:center;padding:24px} .lightbox[hidden]{display:none} .lightbox figure{margin:0;display:flex;flex-direction:column;align-items:center;gap:14px;max-width:100%} .lightbox img{max-width:min(1100px,100%);max-height:80vh;border-radius:8px} .lightbox figcaption{color:#fff;font-size:16px;font-weight:600} .lb-close{position:absolute;top:16px;right:20px;background:var(--yellow);color:var(--ink);border:0;width:48px;height:48px;border-radius:50%;font-size:30px;line-height:1;cursor:pointer} @media (max-width:1200px){.gal-grid{grid-template-columns:repeat(3,minmax(0,1fr))}} @media (max-width:980px){.gal-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}} @media (max-width:600px){.gal-item figcaption{font-size:13px}}</style>
 </head>
 <body>
 <header class="nav">
@@ -74,6 +74,7 @@ footer{background:var(--ink);color:#B3AC9E} footer .slogan-pie{font-family:'Play
 </button>
 <nav class="menu" id="menu" onclick="if(event.target.tagName==='A'){this.classList.remove('open')}">
 <a href="#servicios">Servicios</a>
+<a href="#galeria">Obras</a>
 <a href="#proyectos">Proyectos</a>
 <a href="#proceso">Cómo trabajamos</a>
 <a href="#inmobiliaria">Inmobiliaria</a>
@@ -132,6 +133,16 @@ footer{background:var(--ink);color:#B3AC9E} footer .slogan-pie{font-family:'Play
 </div>
 </div>
 </section>
+<section class="sec galeria" id="galeria">
+<div class="wrap">
+<div class="sec-head">
+<div><span class="eyebrow">Obras</span><h2 class="h2">Así trabajamos en obra</h2></div>
+<p class="lead">Fotos reales de nuestros frentes de trabajo: cimentaciones, estructuras, vías y redes. Toque una foto para verla en grande.</p>
+</div>
+<div class="gal-grid"><figure class="gal-item"><button type="button" data-full="img/obra/obra-2014-10-25_06.webp" data-cap="Muro de contención y acero de refuerzo"><img loading="lazy" src="img/obra/obra-2014-10-25_06.webp" alt="Muro de contención y acero de refuerzo"></button><figcaption>Muro de contención y acero de refuerzo</figcaption></figure><figure class="gal-item"><button type="button" data-full="img/obra/obra-2014-12-11_07.webp" data-cap="Armado de columnas y cimentación"><img loading="lazy" src="img/obra/obra-2014-12-11_07.webp" alt="Armado de columnas y cimentación"></button><figcaption>Armado de columnas y cimentación</figcaption></figure><figure class="gal-item"><button type="button" data-full="img/obra/obra-2022-02-22_38.webp" data-cap="Adecuación de vía con maquinaria"><img loading="lazy" src="img/obra/obra-2022-02-22_38.webp" alt="Adecuación de vía con maquinaria"></button><figcaption>Adecuación de vía con maquinaria</figcaption></figure><figure class="gal-item"><button type="button" data-full="img/obra/obra-2025-12-23_09.webp" data-cap="Estructura metálica de cubierta"><img loading="lazy" src="img/obra/obra-2025-12-23_09.webp" alt="Estructura metálica de cubierta"></button><figcaption>Estructura metálica de cubierta</figcaption></figure><figure class="gal-item"><button type="button" data-full="img/obra/obra-2014-10-05_01.webp" data-cap="Excavación y vigas de cimentación"><img loading="lazy" src="img/obra/obra-2014-10-05_01.webp" alt="Excavación y vigas de cimentación"></button><figcaption>Excavación y vigas de cimentación</figcaption></figure><figure class="gal-item"><button type="button" data-full="img/obra/obra-2021-12-27_43.webp" data-cap="Mampostería y placa de contrapiso"><img loading="lazy" src="img/obra/obra-2021-12-27_43.webp" alt="Mampostería y placa de contrapiso"></button><figcaption>Mampostería y placa de contrapiso</figcaption></figure><figure class="gal-item"><button type="button" data-full="img/obra/obra-2014-12-26_02.webp" data-cap="Edificación multifamiliar"><img loading="lazy" src="img/obra/obra-2014-12-26_02.webp" alt="Edificación multifamiliar"></button><figcaption>Edificación multifamiliar</figcaption></figure><figure class="gal-item"><button type="button" data-full="img/obra/obra-2026-07-24_27.webp" data-cap="Caseta en mampostería y cubierta"><img loading="lazy" src="img/obra/obra-2026-07-24_27.webp" alt="Caseta en mampostería y cubierta"></button><figcaption>Caseta en mampostería y cubierta</figcaption></figure><figure class="gal-item"><button type="button" data-full="img/obra/obra-2021-12-20_47.webp" data-cap="Pavimento en concreto rígido"><img loading="lazy" src="img/obra/obra-2021-12-20_47.webp" alt="Pavimento en concreto rígido"></button><figcaption>Pavimento en concreto rígido</figcaption></figure><figure class="gal-item"><button type="button" data-full="img/obra/obra-2026-09-24_14.webp" data-cap="Redes sanitarias y caja de inspección"><img loading="lazy" src="img/obra/obra-2026-09-24_14.webp" alt="Redes sanitarias y caja de inspección"></button><figcaption>Redes sanitarias y caja de inspección</figcaption></figure><figure class="gal-item"><button type="button" data-full="img/obra/obra-2022-03-09_34.webp" data-cap="Vivienda en construcción"><img loading="lazy" src="img/obra/obra-2022-03-09_34.webp" alt="Vivienda en construcción"></button><figcaption>Vivienda en construcción</figcaption></figure><figure class="gal-item"><button type="button" data-full="img/obra/obra-2022-01-21_40.webp" data-cap="Instalación de bordillos prefabricados"><img loading="lazy" src="img/obra/obra-2022-01-21_40.webp" alt="Instalación de bordillos prefabricados"></button><figcaption>Instalación de bordillos prefabricados</figcaption></figure></div>
+</div>
+</section>
+<div class="lightbox" id="lightbox" hidden><button type="button" class="lb-close" aria-label="Cerrar">&times;</button><figure><img alt=""><figcaption></figcaption></figure></div>
 <section class="sec proyectos" id="proyectos">
 <div class="wrap">
 <div class="sec-head">
@@ -319,5 +330,6 @@ footer{background:var(--ink);color:#B3AC9E} footer .slogan-pie{font-family:'Play
   }).catch(function(){});
 })();
 </script>
+<script>(function(){var lb=document.getElementById('lightbox');if(!lb)return;var im=lb.querySelector('img'),cp=lb.querySelector('figcaption');function cerrar(){lb.hidden=true;im.src='';}document.querySelectorAll('.gal-item button').forEach(function(b){b.addEventListener('click',function(){im.src=b.dataset.full;im.alt=b.dataset.cap;cp.textContent=b.dataset.cap;lb.hidden=false;});});lb.addEventListener('click',function(e){if(e.target!==im)cerrar();});document.addEventListener('keydown',function(e){if(e.key==='Escape'&&!lb.hidden)cerrar();});})();</script>
 </body>
 </html>
