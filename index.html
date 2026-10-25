@@ -64,7 +64,26 @@ footer{background:var(--ink);color:#B3AC9E} footer .slogan-pie{font-family:'Play
 @media (max-width:1200px){.hero-brand{width:420px}}
 @media (max-width:980px){.menu{background:#fff;border-bottom-color:var(--line)} .menu a{border-bottom-color:var(--line)} .hero-brand{width:300px;align-self:center} .slogan{font-size:26px}}
 @media (max-width:600px){.slogan{font-size:22px}.slogan::before,.slogan::after{width:22px}}
- .galeria{background:#fff} .gal-grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:16px} .gal-item{margin:0;display:flex;flex-direction:column;gap:10px} .gal-item button{all:unset;cursor:zoom-in;display:block;border-radius:10px;overflow:hidden;aspect-ratio:4/3;background:var(--sand)} .gal-item img{width:100%;height:100%;object-fit:cover;transition:transform .35s} .gal-item button:hover img{transform:scale(1.05)} .gal-item button:focus-visible{outline:3px solid var(--orange);outline-offset:2px} .gal-item figcaption{font-size:14px;font-weight:600;color:var(--muted);padding-left:12px;border-left:3px solid var(--orange)} .lightbox{position:fixed;inset:0;z-index:100;background:rgba(17,17,16,.92);display:flex;align-items:center;justify-content:center;padding:24px} .lightbox[hidden]{display:none} .lightbox figure{margin:0;display:flex;flex-direction:column;align-items:center;gap:14px;max-width:100%} .lightbox img{max-width:min(1100px,100%);max-height:80vh;border-radius:8px} .lightbox figcaption{color:#fff;font-size:16px;font-weight:600} .lb-close{position:absolute;top:16px;right:20px;background:var(--yellow);color:var(--ink);border:0;width:48px;height:48px;border-radius:50%;font-size:30px;line-height:1;cursor:pointer} @media (max-width:1200px){.gal-grid{grid-template-columns:repeat(3,minmax(0,1fr))}} @media (max-width:980px){.gal-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}} @media (max-width:600px){.gal-item figcaption{font-size:13px}}</style>
+ .galeria{background:#fff} .gal-grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:16px} .gal-item{margin:0;display:flex;flex-direction:column;gap:10px} .gal-item button{all:unset;cursor:zoom-in;display:block;border-radius:10px;overflow:hidden;aspect-ratio:4/3;background:var(--sand)} .gal-item img{width:100%;height:100%;object-fit:cover;transition:transform .35s} .gal-item button:hover img{transform:scale(1.05)} .gal-item button:focus-visible{outline:3px solid var(--orange);outline-offset:2px} .gal-item figcaption{font-size:14px;font-weight:600;color:var(--muted);padding-left:12px;border-left:3px solid var(--orange)} .lightbox{position:fixed;inset:0;z-index:100;background:rgba(17,17,16,.92);display:flex;align-items:center;justify-content:center;padding:24px} .lightbox[hidden]{display:none} .lightbox figure{margin:0;display:flex;flex-direction:column;align-items:center;gap:14px;max-width:100%} .lightbox img{max-width:min(1100px,100%);max-height:80vh;border-radius:8px} .lightbox figcaption{color:#fff;font-size:16px;font-weight:600} .lb-close{position:absolute;top:16px;right:20px;background:var(--yellow);color:var(--ink);border:0;width:48px;height:48px;border-radius:50%;font-size:30px;line-height:1;cursor:pointer} @media (max-width:1200px){.gal-grid{grid-template-columns:repeat(3,minmax(0,1fr))}} @media (max-width:980px){.gal-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}} @media (max-width:600px){.gal-item figcaption{font-size:13px}} /* === SST oct-2026 === */
+ .sst{background:var(--night);color:var(--ground)} .sst .eyebrow{color:var(--yellow)} .sst .lead{color:var(--soft);max-width:560px}
+ .sst-top{display:grid;grid-template-columns:minmax(0,1.3fr) minmax(0,1fr);gap:24px;margin-bottom:24px}
+ .sst-pol{padding:36px;border-radius:10px;background:var(--ink);border-left:4px solid var(--yellow);display:flex;flex-direction:column;gap:16px}
+ .sst-pol h3{font-family:var(--display);font-size:34px;line-height:1.05}
+ .sst-pol p{font-size:16px;line-height:1.65;color:var(--soft)} .sst-pol p b{color:var(--ground)}
+ .sst-pol small{font-size:14px;color:var(--dim)}
+ .sst-docs{padding:36px;border-radius:10px;background:var(--yellow);color:var(--ink);display:flex;flex-direction:column;gap:16px}
+ .sst-docs h3{font-family:var(--display);font-size:34px;line-height:1.05}
+ .sst-docs p{font-size:16px;line-height:1.6;color:#3A362F}
+ .sst-docs ul{margin:0;padding:0;list-style:none;display:flex;flex-direction:column;gap:10px}
+ .sst-docs li{font-size:15px;font-weight:600;padding-left:22px;position:relative} .sst-docs li::before{content:"";position:absolute;left:0;top:7px;width:10px;height:10px;border-radius:2px;background:var(--ink)}
+ .sst-docs .btn{margin-top:auto;align-self:flex-start}
+ .grid-sst{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:20px}
+ .sst .card{background:#1F1E1B;border-color:#2E2C29} .sst .card h3{color:var(--ground)} .sst .card p{color:var(--soft)} .sst .card .ico{background:var(--yellow);color:var(--ink)}
+ .sst-report{margin-top:24px;padding:28px 32px;border:1px solid #3A3733;border-radius:10px;display:flex;align-items:center;justify-content:space-between;gap:20px;flex-wrap:wrap}
+ .sst-report p{font-size:18px;line-height:1.5;color:var(--soft);max-width:720px} .sst-report b{color:var(--ground)}
+ @media (max-width:1200px){.grid-sst{grid-template-columns:repeat(2,minmax(0,1fr))}}
+ @media (max-width:980px){.sst-top{grid-template-columns:1fr}}
+ @media (max-width:600px){.grid-sst{grid-template-columns:1fr}.sst-pol,.sst-docs{padding:26px}.sst-pol h3,.sst-docs h3{font-size:30px}.sst-report .btn{width:100%}}</style>
 </head>
 <body>
 <header class="nav">
@@ -78,6 +97,7 @@ footer{background:var(--ink);color:#B3AC9E} footer .slogan-pie{font-family:'Play
 <a href="#galeria">Obras</a>
 <a href="#proyectos">Proyectos</a>
 <a href="#proceso">Cómo trabajamos</a>
+<a href="#sst">SST</a>
 <a href="#inmobiliaria">Inmobiliaria</a>
 <a href="#contacto">Contacto</a>
 <a class="call" href="https://wa.me/573015582641" target="_blank" rel="noopener">
@@ -109,7 +129,7 @@ footer{background:var(--ink);color:#B3AC9E} footer .slogan-pie{font-family:'Play
 <div class="normas">
 <div class="wrap">
 <strong>Trabajamos bajo la norma colombiana</strong>
-<ul><li>NSR-10</li><li>Ley 400 de 1997</li><li>Ley 1796 de 2016</li><li>Decreto 1077 de 2015</li><li>RETIE</li><li>RAS-2017</li></ul>
+<ul><li>NSR-10</li><li>Ley 400 de 1997</li><li>Ley 1796 de 2016</li><li>Decreto 1077 de 2015</li><li>RETIE</li><li>RAS-2017</li><li>Decreto 1072 de 2015</li><li>Res. 0312 de 2019</li></ul>
 </div>
 </div>
 <section class="sec" id="servicios">
@@ -184,8 +204,50 @@ footer{background:var(--ink);color:#B3AC9E} footer .slogan-pie{font-family:'Play
 <div class="grid-pasos">
 <div class="paso"><b>01</b><h3>Visita técnica</h3><p>Inspección en sitio, medidas y registro fotográfico para entender el problema real antes de proponer.</p></div>
 <div class="paso"><b>02</b><h3>Cotización con APU</h3><p>Presupuesto por ítems, cantidades y análisis de precios unitarios, con AIU discriminado.</p></div>
-<div class="paso"><b>03</b><h3>Contrato y ejecución</h3><p>Contrato de obra con plazo, pólizas y personal afiliado a SG-SST. Seguimiento semanal con el cliente.</p></div>
+<div class="paso"><b>03</b><h3>Contrato y ejecución</h3><p>Contrato de obra con plazo, pólizas y personal afiliado a seguridad social, bajo nuestro <a href="#sst">SG-SST</a>. Seguimiento semanal con el cliente.</p></div>
 <div class="paso"><b>04</b><h3>Entrega a satisfacción</h3><p>Acta de entrega y recibo con cantidades ejecutadas y garantías de estabilidad y calidad de la obra.</p></div>
+</div>
+</div>
+</section>
+<section class="sec sst" id="sst">
+<div class="wrap">
+<div class="sec-head">
+<div><span class="eyebrow">Seguridad y Salud en el Trabajo</span><h2 class="h2">La obra arranca con la gente protegida</h2></div>
+<p class="lead">G&amp;V Construcciones S.A.S. gestiona la seguridad de su personal con un Sistema de Gestión de SST conforme al Decreto 1072 de 2015 y la Resolución 0312 de 2019. Nuestro personal de obra trabaja en riesgo V, por eso aplicamos los 60 estándares mínimos.</p>
+</div>
+<div class="sst-top">
+<div class="sst-pol">
+<span class="eyebrow">Política de SST</span>
+<h3>Nuestro compromiso con quien construye</h3>
+<p>Identificamos los peligros de cada obra y de la oficina, evaluamos sus riesgos y los controlamos antes de empezar el trabajo. Protegemos la seguridad y la salud de <b>trabajadores, contratistas, subcontratistas y visitantes</b>, cumplimos la normatividad de riesgos laborales y destinamos los recursos para que el sistema funcione. Cada año lo revisamos con la dirección para mejorarlo.</p>
+<p><b>No consumo de alcohol ni sustancias psicoactivas.</b> En nuestras obras y en la oficina no se permite trabajar bajo sus efectos.</p>
+<small>Firmada por el representante legal · Revisión anual</small>
+</div>
+<div class="sst-docs">
+<span class="eyebrow" style="color:var(--ink)">Para contratantes y licitaciones</span>
+<h3>Soportes SST listos para su contrato</h3>
+<p>Entregamos con la propuesta o al iniciar la obra:</p>
+<ul>
+<li>Certificados de afiliación a ARL del personal</li>
+<li>Planillas PILA pagadas del mes</li>
+<li>Matriz de peligros y riesgos de la obra (GTC 45)</li>
+<li>Permisos de trabajo en alturas y certificados del personal</li>
+<li>Plan de emergencias de la obra</li>
+</ul>
+<a class="btn btn-dark" href="https://wa.me/573015582641?text=Hola%2C%20necesito%20los%20soportes%20SST%20de%20G%26V%20para%20un%20contrato" target="_blank" rel="noopener">Solicitar soportes</a>
+</div>
+</div>
+<div class="grid-sst">
+<article class="card"><div class="ico"><svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3l8 3v6c0 4.5-3.4 8.3-8 9-4.6-.7-8-4.5-8-9V6z"/><path d="M9 12l2 2 4-4"/></svg></div><h3>Seguridad social antes de entrar</h3><p>Nadie ingresa a obra sin ARL activa, EPS y pensión. A los contratistas les revisamos la planilla PILA de cada mes antes de pagarles.</p></article>
+<article class="card"><div class="ico"><svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M4 21h16"/><path d="M7 21V7h10v14"/><path d="M12 3v4"/><path d="M9 11h6M9 15h6"/></svg></div><h3>Trabajo en alturas</h3><p>Cubiertas, estructuras metálicas, fachadas y tanques elevados se trabajan con permiso, coordinador de alturas, personal certificado y equipos inspeccionados (Res. 4272 de 2021).</p></article>
+<article class="card"><div class="ico"><svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><ellipse cx="12" cy="6" rx="7" ry="3"/><path d="M5 6v12c0 1.7 3.1 3 7 3s7-1.3 7-3V6"/><path d="M12 11v4"/></svg></div><h3>Espacios confinados</h3><p>Tanques subterráneos, pozos de agua y cajas de inspección: permiso de entrada, medición de atmósfera, vigía en la boca y plan de rescate (Res. 0491 de 2020).</p></article>
+<article class="card"><div class="ico"><svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M3 20h18"/><path d="M5 20l4-9h6l4 9"/><path d="M9 11V7h6v4"/></svg></div><h3>Excavaciones y maquinaria</h3><p>Zanjas con talud o entibado, bordes señalizados, operadores con licencia y control de tránsito en obra durante el movimiento de tierras.</p></article>
+<article class="card"><div class="ico"><svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="8" r="4"/><path d="M4 21c1.5-4 4.5-6 8-6s6.5 2 8 6"/><path d="M8 6.5h8"/></svg></div><h3>Inducción y EPP</h3><p>Cada trabajador recibe inducción en los peligros de su frente y la dotación de elementos de protección, con registro firmado.</p></article>
+<article class="card"><div class="ico"><svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3v3M12 18v3M3 12h3M18 12h3"/><circle cx="12" cy="12" r="5"/><path d="M12 10v2l1.5 1.5"/></svg></div><h3>Emergencias por obra</h3><p>Cada obra tiene su plan de emergencias, botiquín, extintor y ruta al centro de salud más cercano. Los accidentes se reportan a la ARL y se investigan (Res. 1401 de 2007).</p></article>
+</div>
+<div class="sst-report">
+<p><b>¿Vio un acto o una condición insegura en una de nuestras obras?</b> Repórtelo con foto y ubicación. Lo revisamos el mismo día.</p>
+<a class="btn btn-orange" href="https://wa.me/573015582641?text=Reporte%20SST%3A%20quiero%20informar%20una%20condici%C3%B3n%20insegura%20en%20la%20obra%20de%20" target="_blank" rel="noopener">Reportar por WhatsApp</a>
 </div>
 </div>
 </section>
@@ -281,7 +343,7 @@ footer{background:var(--ink);color:#B3AC9E} footer .slogan-pie{font-family:'Play
 <footer>
 <div class="wrap">
 <span>© 2026 G&amp;V Construcciones S.A.S · NIT 900.855.176-1</span><span class="slogan-pie">Construyendo futuro</span>
-<nav><a href="https://www.instagram.com/gyvconstruccionessas/" target="_blank" rel="noopener">Instagram</a><a href="https://www.facebook.com/478510462309277" target="_blank" rel="noopener">Facebook</a><a href="https://www.tiktok.com/@gv.construcciones3" target="_blank" rel="noopener">TikTok</a><a href="https://wa.me/573015582641" target="_blank" rel="noopener">WhatsApp</a></nav>
+<nav><a href="#sst">Política de SST</a><a href="https://www.instagram.com/gyvconstruccionessas/" target="_blank" rel="noopener">Instagram</a><a href="https://www.facebook.com/478510462309277" target="_blank" rel="noopener">Facebook</a><a href="https://www.tiktok.com/@gv.construcciones3" target="_blank" rel="noopener">TikTok</a><a href="https://wa.me/573015582641" target="_blank" rel="noopener">WhatsApp</a></nav>
 </div>
 </footer>
 <a class="wa-float" href="https://wa.me/573015582641" target="_blank" rel="noopener" aria-label="Escribir por WhatsApp">
